@@ -9,6 +9,9 @@ nav a {
     display: block;
 }
 
+h1 {
+    color: steelblue;
+}
 main {
     max-width: 840px;
 }
