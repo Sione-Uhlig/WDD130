@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/noto/specimen/Noto+Serif?vfonly=true);
+@import url('https://fonts.google.com/noto/specimen/Noto+Serif?vfonly=true');
 
 body{
     font-family: var(--paragraph-font);
