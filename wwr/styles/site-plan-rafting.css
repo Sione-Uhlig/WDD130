@@ -6,10 +6,10 @@ body{
     padding: 20px;
 }
 :root {
-    --primary-color: #2A7A87;
-    --secondary-color: #05445E;
-    --accent1-color: #50B0B1;
-    --accent2-color: #75E6DA;
+    --primary-color: #05445E;
+    --secondary-color: #2A7A87;
+    --accent1-color: #75E6DA;
+    --accent2-color: #50B0B1;
 
     --heading-font: 'noto', serif;
     --paragraph-font: 'noto', serif;
