@@ -20,6 +20,20 @@
     --nav-hover-background-color: #50B0B1;
 }
 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px; 
+    padding: 20px;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
 
 .hero img {
     display: block;
@@ -29,8 +43,8 @@
 
 .hero h1 {
     position: absolute;
-    top: 25%;
-    left: 20%;
+    top: 35%;
+    left: 15%;
     padding: 20px;
     background-color: rgba(0,0,0,0.5);
     color: white;
