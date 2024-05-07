@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+* {
+    max-width: 1200px;
+}
+
+
+:root {
+    --primary-color: #05445E;
+    --secondary-color: #2A7A87;
+    --accent1-color: #75E6DA;
+    --accent2-color: #50B0B1;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --nav-background-color: #05445E;
+    --nav-link-color: #143ae0;
+    --nav-hover-link-color: #75E6DA;
+    --nav-hover-background-color: #50B0B1;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height:auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center
+    
+}
+
+
+
+.hero article img {
+    float: right;
+    margin-left: 10px;
+}
