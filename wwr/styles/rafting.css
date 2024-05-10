@@ -69,7 +69,7 @@ section p {
 }
 
 footer {
-    color: white;
+    color: var(--primary-color);
 }
 
 header nav a:link, header nav a:visited {
