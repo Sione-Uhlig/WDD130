@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
-* {
-    max-width: 1200px;
-}
-
-
-:root {
+:root{
     --primary-color: #05445E;
     --secondary-color: #2A7A87;
     --accent1-color: #75E6DA;
@@ -20,41 +15,54 @@
     --nav-hover-background-color: #50B0B1;
 }
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px; 
-    padding: 20px;
-}
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+* {
+    max-width: 1000px;
 }
 
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
+.hero {
+    position: relative;
 }
+
 
 .hero img {
-    display: block;
     width: 100%;
-    height:auto;
+    height: auto;
+    margin: 0 auto;
 }
 
 .hero h1 {
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    padding: 20px;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    text-align: center
-    
+    position:absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    color: #05445E;
 }
 
-
-
 .hero article img {
+    width: 300px;
+    height:auto;
     float: right;
-    margin-left: 10px;
+    opacity: 100%;
+}
+ 
+.hero article {
+    position: absolute;
+    width: 90%;
+    height:auto;
+    padding: 2.5%;
+    top: 225px;
+    left: 2.5%;
+    background-color: #05445E;
+    color: #75E6DA;
+    opacity: 75%;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+section p {
+    color: var(--secondary-color);
 }
