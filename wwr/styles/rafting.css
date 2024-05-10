@@ -19,6 +19,7 @@
     max-width: 1000px;
 }
 
+
 .hero {
     position: relative;
 }
@@ -38,6 +39,7 @@
     height: auto;
     margin: 0 auto;
     color: #05445E;
+    background-color: none;
 }
 
 .hero article img {
@@ -65,4 +67,23 @@ h2 {
 
 section p {
     color: var(--secondary-color);
+}
+
+footer {
+    color: white;
+}
+
+header nav a:link, header nav a:visited {
+    color: var(--nav-background-color)
+}
+
+
+header nav a:hover {
+    color: var(--accent2-color);
+}
+
+.sociallinks img {
+    width: 40px;
+    height: auto;
+
 }
