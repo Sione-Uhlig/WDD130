@@ -20,7 +20,7 @@
     max-width: 1000px;
 }
 body {
-    background-color: #f0fffe;
+    background-color: #d2faf8;
 }
 header {
     margin: 0;
@@ -64,7 +64,7 @@ nav {
     padding: 20px;
     border: 1px solid black;
     text-decoration: none;
-    background-color: #75E6DA;
+    background-color: #bce2de;
 }
 
 .nav_1 a:hover{
@@ -75,10 +75,11 @@ nav {
 
 .history {
     display: grid;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 150px 150px 150px;
     grid-template-columns: 200px 200px 200px;
     font-size: 20px;
     padding-left: 175px;
+    margin-bottom: 5px;
    
 }
 
@@ -104,6 +105,7 @@ nav {
     grid-row: 2;
     grid-column: 3;
     align-self: center;
+    padding-bottom: 50px;
 }
 
 .history .p_1 {
