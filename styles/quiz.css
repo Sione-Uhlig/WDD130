@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+
+body {
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 850px;
+    max-height: 800px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+header {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 800px;
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #05445E;
+    text-align: center;
+}
+
+form {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1.5px solid #05445E;
+    border-radius: .5rem;
+    background-color: rgb(210, 255, 255);
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1rem;
+    color: #05445E;
+    border-top: 2px solid black;
+}
+
+.l_p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 300px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #05445E;
+    color: #fff;
+    border: solid black;
+    font-size: 1.5rem;
+    width: 550px;
+  }
+  
+  button:hover {
+    background-color: #1f5b64;
+  }
+
+  input, select, textarea {
+    align-items: center;
+    padding: .5rem;
+    font-size: 1.1rem;
+    width: 550px
+}
+
+div {
+    padding: 1rem;
+    margin: 1 auto;
+    text-align: left;
+}
+
+.q_4 {
+    padding-top: 2rem;
+}
+
