@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website for a rafting business">
+    <meta name="description" content="Contact site for Splash Whitewater Rafting business">
     <meta name="author" content="Sione Uhlig ">
     <link rel="stylesheet" href="styles/rafting.css" >
-    <title>Splash Whitewater Rafting</title>
+    <title>Contact Splash Whitewater Rafting</title>
 </head>
 <body>
     <header class=".grid">
@@ -21,12 +21,12 @@
     <main>
         <div class="hero_2">
             <img src="images/happy-1.jpg" alt="Picture of people white water rafting.">
-            <h1>Splash Whitewater Rafting</h1>
+            <h1>Contact Splash Whitewater Rafting</h1>
             <article>
-                <img src="images/happy-1.jpg" alt="Picture of a happy client">
-                <p>Address: </p>
-                <p>Phone Number: </p>
-                <p>Email: </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8771.462220182764!2d-110.15724036851478!3d38.98838333023278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8748fa910133cb19%3A0xb67c8dd126a87f51!2siCamp%20Green%20River!5e0!3m2!1sen!2sus!4v1716520357225!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Address: 610 S Green River Blvd, Green River, UT 84525 </p>
+                <p>Phone Number: 555-123-4567 </p>
+                <p>Email: SplashWhitewaterRafting@gmail.com </p>
             </article>
         </div>
         <section class="section_2">
@@ -44,9 +44,41 @@
                 <figcaption>Group Rafting</figcaption>
             </figure>
         </section>
-        <section class="adventure">
-            <h2>Contact Information</h2>
-        </section>
+        <div class="container_1"></div>
+        <form>
+            <fieldset>
+                <h2>Contact Information</h2>
+            <div class="form-item column1">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <label>Purpose of Message:</label>
+            <div>
+                <input type="radio" id="general inquiry" name="message" value="general inquiry">
+                <label for="general inquiry">General Inquiry</label>
+              </div>
+              <div>
+                <input type="radio" id="reservation" name="message" value="reservation">
+                <label for="reservation">Reservation Question</label>
+              </div>
+              <div>
+                <input type="radio" id="web_suggestion" name="message" value="web_suggestion">
+                <label for="web_suggestion">Website Suggestion</label>
+              </div>
+              <label for="message">Message:</label>
+              <textarea name="message" id="message"></textarea>
+            </fieldset>
+            <div class="form-item column1_2">
+                <label for="pet">Please subscribe me to the monthly newsletter.</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
     </main>
     <footer class="footer_1">
         <p>>©2024 🌮 Splash Whitewater Rafting 🌮 Sione Uhlig 🌮 </p>
