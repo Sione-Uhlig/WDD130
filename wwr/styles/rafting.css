@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 
@@ -276,6 +277,7 @@ header nav a:hover {
 .sociallinks img {
     width: 40px;
     height: auto;
+   padding-right: 20px;
 
 }
 
@@ -426,3 +428,4 @@ button[type="submit"] {
   input[type="radio"] {
     margin: 0 auto;
   }
+
