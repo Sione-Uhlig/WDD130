@@ -515,8 +515,8 @@ button[type="subscribe"] {
 
 .hero_trips {
     display: grid;
-    grid-template-rows: 1 1;
-    grid-template-columns: 1 1 1;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
 }
 .hero_trips h1 {
     grid-row-start: 1;
