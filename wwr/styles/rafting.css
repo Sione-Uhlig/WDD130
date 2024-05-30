@@ -79,6 +79,8 @@ nav {
     grid-template-columns: 200px 200px 200px;
     font-size: 20px;
     padding-left: 175px;
+    padding-top: 50px;
+    padding-bottom: 60px;
    
 }
 
@@ -88,7 +90,6 @@ nav {
     justify-items: start;
     align-items: center;
     padding-left: 40px;
-    padding-top: 10px;
     font-size: 40px;
     
 }
@@ -98,12 +99,14 @@ nav {
     grid-column: 2;
     justify-items: start;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .history .p_2 {
     grid-row: 2;
     grid-column: 3;
     align-self: center;
+    padding-bottom: 46px;
 }
 
 .history .p_1 {
@@ -247,6 +250,7 @@ nav {
     background-color: #05445E;
     color: #75E6DA;
     opacity: 75%;
+    font-size: 1.5rem;
 }
 
 
@@ -350,15 +354,15 @@ header nav a:hover {
  
 .hero_2  article {
     position: absolute;
-    width: 90%;
-    height:auto;
-    padding: 2.5%;
+    width: 865px;
+    text-align: left;
     top: 390px;
-    left: 2.5%;
+    left: 5%;
     background-color: #05445E;
     color: #d1fffa;
     opacity: 85%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 
@@ -458,29 +462,35 @@ button[type="submit"] {
   .form_2 {
     height: 180px;
     width: 350px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-align: center;
     margin-right: 0;
-    background-color: rgb(251, 255, 0);
+    margin-bottom: 0;
+    background-color: #2a52be;
     font-weight: bold;
-    font-size: 25px
+    font-size: 21.8px;
+    border: black solid 3px;
     
   }
 
-  .form_2 button  {
-    width: 150px;
+.form_2 .button_2  {
+    width: 100px;
     max-height: 40px;
-    background-color: #05445E;
+    position: relative;
+    margin-left: 125px;
+    margin-bottom: 50px;
+    background-color: #ffd700;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: black solid 3px;
   }
   .form_2 p {
-    color: black;
+    color: white;
+    height: 105px;
+    width: 350px;
   }
 
-  .form_2 a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-  }
   
 .sec_img_3 a {
     text-decoration: none;
@@ -503,7 +513,7 @@ button[type="submit"] {
     width: auto;
     border: 2px solid black;
 }
-button[type="subscribe"] {
+button[type="submit"] {
     background-color: #063b52;
     color: #fff;
     border: 2px solid black;
@@ -511,6 +521,10 @@ button[type="subscribe"] {
     margin-left: 40px;
     width: 200px;
     max-height: 60px;
+}
+
+.button_1:hover {
+    color: #ffd700;
 }
 
 .hero_trips {
@@ -537,6 +551,12 @@ button[type="subscribe"] {
 .form_3 {
     grid-row-start: 2;
     grid-column-start: 1;
+    max-height: 448px;
+    width: 300px;
+}
+
+.form_3 p{
+    font-size: 2rem;
     max-height: 448px;
     width: 300px;
 }
