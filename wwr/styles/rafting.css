@@ -199,7 +199,7 @@ nav {
     margin-top: 10px;
     display: grid;
     grid-template-rows: 10px;
-    grid-template-columns: 800px;
+    grid-template-columns: 900px;
 }
 
 
@@ -597,25 +597,28 @@ button[type="submit"] {
     background-color: #05445E;
    padding-top: 10px;
    padding-bottom: 10px;
+   margin: 0 0 10px;
    color: #8be7de;
 }
 
 .hero_trips img {
     width: 675px;
     height: auto;
+    top: 10px;
 } 
 
 .form_3 {
     grid-row-start: 2;
     grid-column-start: 1;
     max-height: 448px;
-    width: 300px;
+    width: 323px;
 }
 
 .form_3 p{
     font-size: 2rem;
     max-height: 448px;
-    width: 300px;
+    width: 323px;
+    padding-left: 7px;
 }
 
 .img_trip_2 {
@@ -623,6 +626,7 @@ button[type="submit"] {
     grid-column-start: 2;
     grid-column-end: 3;
     height: auto;
+    top: 10px;
 }
 
 .table_1 {
@@ -638,3 +642,8 @@ button[type="submit"] {
     font-size: 40px;
     color: #05445E;
 }
+
+.section_2 {
+    padding-left: 25px;
+}
+
